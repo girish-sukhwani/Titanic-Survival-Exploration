@@ -5,6 +5,7 @@ In this project, we will create decision functions that attempt to predict survi
 
 This project contains three files:
 
-- `titanic_survival_exploration.ipynb`: This is the main file containing the code.
+- `titanic_survival_exploration.ipynb`: This is the main file containing the implementation using **Pandas**, **NumPy**, and **Matplotlib**.
+- `titanic_exploration_PySpark.ipynb`: This is the main file containing the implementation in **PySpark**.
 - `titanic_data.csv`: The project dataset.
 - `visuals.py`: This Python script provides supplementary visualizations for the project.
