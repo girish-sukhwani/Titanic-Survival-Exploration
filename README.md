@@ -3,17 +3,18 @@ Predicting survival outcomes of passengers from the 1912 Titanic Disaster
 
 ### Install
 
-This project requires **Python 2.7** and the following Python libraries installed:
+This project requires **Python 2.7**, **Python 3.x** and the following Python libraries installed:
 
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [Jupyter Notebook](http://ipython.org/notebook.html)
+- [PySpark](https://spark.apache.org/docs/2.1.0/) (Only for the PySpark Implementation)
 
 ### Code
 
-Actual code is provided in the notebook `titanic_survival_exploration.ipynb` notebook file. Additional supporting code can be found in `visuals.py`.
+Actual code is provided in the `titanic_survival_exploration.ipynb` and `titanic_exploration_PySpark.ipynb` notebook files. Additional supporting code can be found in `visuals.py`.
 
 ### Run
 
@@ -25,6 +26,18 @@ jupyter notebook titanic_survival_exploration.ipynb
 or
 ```bash
 ipython notebook titanic_survival_exploration.ipynb
+```
+
+Similarly for the PySpark implementation, run the following commands:
+
+```bash
+jupyter notebook titanic_exploration_PySpark.ipynb
+```
+
+or
+
+```bash
+ipython notebook titanic_exploration_PySpark.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your web browser.
